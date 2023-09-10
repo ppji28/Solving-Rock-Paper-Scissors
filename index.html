@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Street Rock Paper Scissors</h1>
+        <div class="choices">
+            <div class="choice" id="rock" onclick="playRound('rock')">
+                <img src="rock.png" alt="Rock">
+                <p>Rock</p>
+            </div>
+            <div class="choice" id="paper" onclick="playRound('paper')">
+                <img src="paper.png" alt="Paper">
+                <p>Paper</p>
+            </div>
+            <div class="choice" id="scissors" onclick="playRound('scissors')">
+                <img src="scissors.png" alt="Scissors">
+                <p>Scissors</p>
+            </div>
+        </div>
+        <div class="result">
+            <p id="roundResult"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
